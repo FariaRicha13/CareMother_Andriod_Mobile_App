@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ambulance"
+
+    >
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="350dp"
+        android:background="@drawable/ambu" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Call-1: 1333"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Call-2: 0888"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/text_number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:hint="Enter number from the list"
+        android:textStyle="italic"
+        android:textColor="#D5054C"
+        android:inputType="phone"/>
+
+    <ImageView
+        android:id="@+id/image_call"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:src="@drawable/phone" />
+
+</LinearLayout>

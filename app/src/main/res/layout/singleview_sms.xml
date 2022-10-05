@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/reciever">
+
+    <RelativeLayout
+        android:id="@+id/message_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_sender"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/seconduserText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:maxWidth="250dp"
+            android:layout_below="@+id/firstuserText"
+            android:layout_alignParentLeft="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+
+            android:id="@+id/date_text"
+            android:background="@drawable/bg_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/seconduserText"
+            android:layout_below="@+id/seconduserText"
+            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            tools:text="11:34" />
+
+    </RelativeLayout>
+</RelativeLayout>

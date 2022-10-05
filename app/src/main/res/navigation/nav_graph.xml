@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.signupandlogin.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.signupandlogin.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First2Fragment"
+        android:name="com.example.signupandlogin.First2Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first2">
+
+        <action
+            android:id="@+id/action_First2Fragment_to_Second2Fragment"
+            app:destination="@id/Second2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second2Fragment"
+        android:name="com.example.signupandlogin.Second2Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second2">
+
+        <action
+            android:id="@+id/action_Second2Fragment_to_First2Fragment"
+            app:destination="@id/First2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First3Fragment"
+        android:name="com.example.signupandlogin.First3Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first3">
+
+        <action
+            android:id="@+id/action_First3Fragment_to_Second3Fragment"
+            app:destination="@id/Second3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second3Fragment"
+        android:name="com.example.signupandlogin.Second3Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second3">
+
+        <action
+            android:id="@+id/action_Second3Fragment_to_First3Fragment"
+            app:destination="@id/First3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First4Fragment"
+        android:name="com.example.signupandlogin.First4Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first4">
+
+        <action
+            android:id="@+id/action_First4Fragment_to_Second4Fragment"
+            app:destination="@id/Second4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second4Fragment"
+        android:name="com.example.signupandlogin.Second4Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second4">
+
+        <action
+            android:id="@+id/action_Second4Fragment_to_First4Fragment"
+            app:destination="@id/First4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First5Fragment"
+        android:name="com.example.signupandlogin.First5Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first5">
+
+        <action
+            android:id="@+id/action_First5Fragment_to_Second5Fragment"
+            app:destination="@id/Second5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second5Fragment"
+        android:name="com.example.signupandlogin.Second5Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second5">
+
+        <action
+            android:id="@+id/action_Second5Fragment_to_First5Fragment"
+            app:destination="@id/First5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First6Fragment"
+        android:name="com.example.signupandlogin.First6Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first6">
+
+        <action
+            android:id="@+id/action_First6Fragment_to_Second6Fragment"
+            app:destination="@id/Second6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second6Fragment"
+        android:name="com.example.signupandlogin.Second6Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second6">
+
+        <action
+            android:id="@+id/action_Second6Fragment_to_First6Fragment"
+            app:destination="@id/First6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First7Fragment"
+        android:name="com.example.signupandlogin.First7Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first7">
+
+        <action
+            android:id="@+id/action_First7Fragment_to_Second7Fragment"
+            app:destination="@id/Second7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second7Fragment"
+        android:name="com.example.signupandlogin.Second7Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second7">
+
+        <action
+            android:id="@+id/action_Second7Fragment_to_First7Fragment"
+            app:destination="@id/First7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First8Fragment"
+        android:name="com.example.signupandlogin.First8Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first8">
+
+        <action
+            android:id="@+id/action_First8Fragment_to_Second8Fragment"
+            app:destination="@id/Second8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second8Fragment"
+        android:name="com.example.signupandlogin.Second8Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second8">
+
+        <action
+            android:id="@+id/action_Second8Fragment_to_First8Fragment"
+            app:destination="@id/First8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First9Fragment"
+        android:name="com.example.signupandlogin.First9Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first9">
+
+        <action
+            android:id="@+id/action_First9Fragment_to_Second9Fragment"
+            app:destination="@id/Second9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second9Fragment"
+        android:name="com.example.signupandlogin.Second9Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second9">
+
+        <action
+            android:id="@+id/action_Second9Fragment_to_First9Fragment"
+            app:destination="@id/First9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First10Fragment"
+        android:name="com.example.signupandlogin.First10Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first10">
+
+        <action
+            android:id="@+id/action_First10Fragment_to_Second10Fragment"
+            app:destination="@id/Second10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second10Fragment"
+        android:name="com.example.signupandlogin.Second10Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second10">
+
+        <action
+            android:id="@+id/action_Second10Fragment_to_First10Fragment"
+            app:destination="@id/First10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First11Fragment"
+        android:name="com.example.signupandlogin.First11Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first11">
+
+        <action
+            android:id="@+id/action_First11Fragment_to_Second11Fragment"
+            app:destination="@id/Second11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second11Fragment"
+        android:name="com.example.signupandlogin.Second11Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second11">
+
+        <action
+            android:id="@+id/action_Second11Fragment_to_First11Fragment"
+            app:destination="@id/First11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First12Fragment"
+        android:name="com.example.signupandlogin.First12Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first12">
+
+        <action
+            android:id="@+id/action_First12Fragment_to_Second12Fragment"
+            app:destination="@id/Second12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second12Fragment"
+        android:name="com.example.signupandlogin.Second12Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second12">
+
+        <action
+            android:id="@+id/action_Second12Fragment_to_First12Fragment"
+            app:destination="@id/First12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First13Fragment"
+        android:name="com.example.signupandlogin.First13Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first13">
+
+        <action
+            android:id="@+id/action_First13Fragment_to_Second13Fragment"
+            app:destination="@id/Second13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second13Fragment"
+        android:name="com.example.signupandlogin.Second13Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second13">
+
+        <action
+            android:id="@+id/action_Second13Fragment_to_First13Fragment"
+            app:destination="@id/First13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First14Fragment"
+        android:name="com.example.signupandlogin.First14Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first14">
+
+        <action
+            android:id="@+id/action_First14Fragment_to_Second14Fragment"
+            app:destination="@id/Second14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second14Fragment"
+        android:name="com.example.signupandlogin.Second14Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second14">
+
+        <action
+            android:id="@+id/action_Second14Fragment_to_First14Fragment"
+            app:destination="@id/First14Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First15Fragment"
+        android:name="com.example.signupandlogin.First15Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first15">
+
+        <action
+            android:id="@+id/action_First15Fragment_to_Second15Fragment"
+            app:destination="@id/Second15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second15Fragment"
+        android:name="com.example.signupandlogin.Second15Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second15">
+
+        <action
+            android:id="@+id/action_Second15Fragment_to_First15Fragment"
+            app:destination="@id/First15Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First16Fragment"
+        android:name="com.example.signupandlogin.First16Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first16">
+
+        <action
+            android:id="@+id/action_First16Fragment_to_Second16Fragment"
+            app:destination="@id/Second16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second16Fragment"
+        android:name="com.example.signupandlogin.Second16Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second16">
+
+        <action
+            android:id="@+id/action_Second16Fragment_to_First16Fragment"
+            app:destination="@id/First16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First17Fragment"
+        android:name="com.example.signupandlogin.First17Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first17">
+
+        <action
+            android:id="@+id/action_First17Fragment_to_Second17Fragment"
+            app:destination="@id/Second17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second17Fragment"
+        android:name="com.example.signupandlogin.Second17Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second17">
+
+        <action
+            android:id="@+id/action_Second17Fragment_to_First17Fragment"
+            app:destination="@id/First17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First18Fragment"
+        android:name="com.example.signupandlogin.First18Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first18">
+
+        <action
+            android:id="@+id/action_First18Fragment_to_Second18Fragment"
+            app:destination="@id/Second18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second18Fragment"
+        android:name="com.example.signupandlogin.Second18Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second18">
+
+        <action
+            android:id="@+id/action_Second18Fragment_to_First18Fragment"
+            app:destination="@id/First18Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First19Fragment"
+        android:name="com.example.signupandlogin.First19Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first19">
+
+        <action
+            android:id="@+id/action_First19Fragment_to_Second19Fragment"
+            app:destination="@id/Second19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second19Fragment"
+        android:name="com.example.signupandlogin.Second19Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second19">
+
+        <action
+            android:id="@+id/action_Second19Fragment_to_First19Fragment"
+            app:destination="@id/First19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First20Fragment"
+        android:name="com.example.signupandlogin.First20Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first20">
+
+        <action
+            android:id="@+id/action_First20Fragment_to_Second20Fragment"
+            app:destination="@id/Second20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second20Fragment"
+        android:name="com.example.signupandlogin.Second20Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second20">
+
+        <action
+            android:id="@+id/action_Second20Fragment_to_First20Fragment"
+            app:destination="@id/First20Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First21Fragment"
+        android:name="com.example.signupandlogin.First21Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first21">
+
+        <action
+            android:id="@+id/action_First21Fragment_to_Second21Fragment"
+            app:destination="@id/Second21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second21Fragment"
+        android:name="com.example.signupandlogin.Second21Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second21">
+
+        <action
+            android:id="@+id/action_Second21Fragment_to_First21Fragment"
+            app:destination="@id/First21Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First22Fragment"
+        android:name="com.example.signupandlogin.First22Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first22">
+
+        <action
+            android:id="@+id/action_First22Fragment_to_Second22Fragment"
+            app:destination="@id/Second22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second22Fragment"
+        android:name="com.example.signupandlogin.Second22Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second22">
+
+        <action
+            android:id="@+id/action_Second22Fragment_to_First22Fragment"
+            app:destination="@id/First22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First23Fragment"
+        android:name="com.example.signupandlogin.First23Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first23">
+
+        <action
+            android:id="@+id/action_First23Fragment_to_Second23Fragment"
+            app:destination="@id/Second23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second23Fragment"
+        android:name="com.example.signupandlogin.Second23Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second23">
+
+        <action
+            android:id="@+id/action_Second23Fragment_to_First23Fragment"
+            app:destination="@id/First23Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First24Fragment"
+        android:name="com.example.signupandlogin.First24Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first24">
+
+        <action
+            android:id="@+id/action_First24Fragment_to_Second24Fragment"
+            app:destination="@id/Second24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second24Fragment"
+        android:name="com.example.signupandlogin.Second24Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second24">
+
+        <action
+            android:id="@+id/action_Second24Fragment_to_First24Fragment"
+            app:destination="@id/First24Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First25Fragment"
+        android:name="com.example.signupandlogin.First25Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first25">
+
+        <action
+            android:id="@+id/action_First25Fragment_to_Second25Fragment"
+            app:destination="@id/Second25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second25Fragment"
+        android:name="com.example.signupandlogin.Second25Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second25">
+
+        <action
+            android:id="@+id/action_Second25Fragment_to_First25Fragment"
+            app:destination="@id/First25Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First26Fragment"
+        android:name="com.example.signupandlogin.First26Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first26">
+
+        <action
+            android:id="@+id/action_First26Fragment_to_Second26Fragment"
+            app:destination="@id/Second26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second26Fragment"
+        android:name="com.example.signupandlogin.Second26Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second26">
+
+        <action
+            android:id="@+id/action_Second26Fragment_to_First26Fragment"
+            app:destination="@id/First26Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First27Fragment"
+        android:name="com.example.signupandlogin.First27Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first27">
+
+        <action
+            android:id="@+id/action_First27Fragment_to_Second27Fragment"
+            app:destination="@id/Second27Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second27Fragment"
+        android:name="com.example.signupandlogin.Second27Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second27">
+
+        <action
+            android:id="@+id/action_Second27Fragment_to_First27Fragment"
+            app:destination="@id/First27Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First28Fragment"
+        android:name="com.example.signupandlogin.First28Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first28">
+
+        <action
+            android:id="@+id/action_First28Fragment_to_Second28Fragment"
+            app:destination="@id/Second28Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second28Fragment"
+        android:name="com.example.signupandlogin.Second28Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second28">
+
+        <action
+            android:id="@+id/action_Second28Fragment_to_First28Fragment"
+            app:destination="@id/First28Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First29Fragment"
+        android:name="com.example.signupandlogin.First29Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first29">
+
+        <action
+            android:id="@+id/action_First29Fragment_to_Second29Fragment"
+            app:destination="@id/Second29Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second29Fragment"
+        android:name="com.example.signupandlogin.Second29Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second29">
+
+        <action
+            android:id="@+id/action_Second29Fragment_to_First29Fragment"
+            app:destination="@id/First29Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First30Fragment"
+        android:name="com.example.signupandlogin.First30Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first30">
+
+        <action
+            android:id="@+id/action_First30Fragment_to_Second30Fragment"
+            app:destination="@id/Second30Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second30Fragment"
+        android:name="com.example.signupandlogin.Second30Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second30">
+
+        <action
+            android:id="@+id/action_Second30Fragment_to_First30Fragment"
+            app:destination="@id/First30Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First31Fragment"
+        android:name="com.example.signupandlogin.First31Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first31">
+
+        <action
+            android:id="@+id/action_First31Fragment_to_Second31Fragment"
+            app:destination="@id/Second31Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second31Fragment"
+        android:name="com.example.signupandlogin.Second31Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second31">
+
+        <action
+            android:id="@+id/action_Second31Fragment_to_First31Fragment"
+            app:destination="@id/First31Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First32Fragment"
+        android:name="com.example.signupandlogin.First32Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first32">
+
+        <action
+            android:id="@+id/action_First32Fragment_to_Second32Fragment"
+            app:destination="@id/Second32Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second32Fragment"
+        android:name="com.example.signupandlogin.Second32Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second32">
+
+        <action
+            android:id="@+id/action_Second32Fragment_to_First32Fragment"
+            app:destination="@id/First32Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First33Fragment"
+        android:name="com.example.signupandlogin.First33Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first33">
+
+        <action
+            android:id="@+id/action_First33Fragment_to_Second33Fragment"
+            app:destination="@id/Second33Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second33Fragment"
+        android:name="com.example.signupandlogin.Second33Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second33">
+
+        <action
+            android:id="@+id/action_Second33Fragment_to_First33Fragment"
+            app:destination="@id/First33Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First34Fragment"
+        android:name="com.example.signupandlogin.First34Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first34">
+
+        <action
+            android:id="@+id/action_First34Fragment_to_Second34Fragment"
+            app:destination="@id/Second34Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second34Fragment"
+        android:name="com.example.signupandlogin.Second34Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second34">
+
+        <action
+            android:id="@+id/action_Second34Fragment_to_First34Fragment"
+            app:destination="@id/First34Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First35Fragment"
+        android:name="com.example.signupandlogin.First35Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first35">
+
+        <action
+            android:id="@+id/action_First35Fragment_to_Second35Fragment"
+            app:destination="@id/Second35Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second35Fragment"
+        android:name="com.example.signupandlogin.Second35Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second35">
+
+        <action
+            android:id="@+id/action_Second35Fragment_to_First35Fragment"
+            app:destination="@id/First35Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First36Fragment"
+        android:name="com.example.signupandlogin.First36Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first36">
+
+        <action
+            android:id="@+id/action_First36Fragment_to_Second36Fragment"
+            app:destination="@id/Second36Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second36Fragment"
+        android:name="com.example.signupandlogin.Second36Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second36">
+
+        <action
+            android:id="@+id/action_Second36Fragment_to_First36Fragment"
+            app:destination="@id/First36Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First37Fragment"
+        android:name="com.example.signupandlogin.First37Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first37">
+
+        <action
+            android:id="@+id/action_First37Fragment_to_Second37Fragment"
+            app:destination="@id/Second37Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second37Fragment"
+        android:name="com.example.signupandlogin.Second37Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second37">
+
+        <action
+            android:id="@+id/action_Second37Fragment_to_First37Fragment"
+            app:destination="@id/First37Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First38Fragment"
+        android:name="com.example.signupandlogin.First38Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first38">
+
+        <action
+            android:id="@+id/action_First38Fragment_to_Second38Fragment"
+            app:destination="@id/Second38Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second38Fragment"
+        android:name="com.example.signupandlogin.Second38Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second38">
+
+        <action
+            android:id="@+id/action_Second38Fragment_to_First38Fragment"
+            app:destination="@id/First38Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First39Fragment"
+        android:name="com.example.signupandlogin.First39Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first39">
+
+        <action
+            android:id="@+id/action_First39Fragment_to_Second39Fragment"
+            app:destination="@id/Second39Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second39Fragment"
+        android:name="com.example.signupandlogin.Second39Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second39">
+
+        <action
+            android:id="@+id/action_Second39Fragment_to_First39Fragment"
+            app:destination="@id/First39Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First40Fragment"
+        android:name="com.example.signupandlogin.First40Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first40">
+
+        <action
+            android:id="@+id/action_First40Fragment_to_Second40Fragment"
+            app:destination="@id/Second40Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second40Fragment"
+        android:name="com.example.signupandlogin.Second40Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second40">
+
+        <action
+            android:id="@+id/action_Second40Fragment_to_First40Fragment"
+            app:destination="@id/First40Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First41Fragment"
+        android:name="com.example.signupandlogin.First41Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first41">
+
+        <action
+            android:id="@+id/action_First41Fragment_to_Second41Fragment"
+            app:destination="@id/Second41Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second41Fragment"
+        android:name="com.example.signupandlogin.Second41Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second41">
+
+        <action
+            android:id="@+id/action_Second41Fragment_to_First41Fragment"
+            app:destination="@id/First41Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First42Fragment"
+        android:name="com.example.signupandlogin.First42Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first42">
+
+        <action
+            android:id="@+id/action_First42Fragment_to_Second42Fragment"
+            app:destination="@id/Second42Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second42Fragment"
+        android:name="com.example.signupandlogin.Second42Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second42">
+
+        <action
+            android:id="@+id/action_Second42Fragment_to_First42Fragment"
+            app:destination="@id/First42Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First43Fragment"
+        android:name="com.example.signupandlogin.First43Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first43">
+
+        <action
+            android:id="@+id/action_First43Fragment_to_Second43Fragment"
+            app:destination="@id/Second43Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second43Fragment"
+        android:name="com.example.signupandlogin.Second43Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second43">
+
+        <action
+            android:id="@+id/action_Second43Fragment_to_First43Fragment"
+            app:destination="@id/First43Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First44Fragment"
+        android:name="com.example.signupandlogin.First44Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first44">
+
+        <action
+            android:id="@+id/action_First44Fragment_to_Second44Fragment"
+            app:destination="@id/Second44Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second44Fragment"
+        android:name="com.example.signupandlogin.Second44Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second44">
+
+        <action
+            android:id="@+id/action_Second44Fragment_to_First44Fragment"
+            app:destination="@id/First44Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First45Fragment"
+        android:name="com.example.signupandlogin.First45Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first45">
+
+        <action
+            android:id="@+id/action_First45Fragment_to_Second45Fragment"
+            app:destination="@id/Second45Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second45Fragment"
+        android:name="com.example.signupandlogin.Second45Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second45">
+
+        <action
+            android:id="@+id/action_Second45Fragment_to_First45Fragment"
+            app:destination="@id/First45Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First46Fragment"
+        android:name="com.example.signupandlogin.First46Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first46">
+
+        <action
+            android:id="@+id/action_First46Fragment_to_Second46Fragment"
+            app:destination="@id/Second46Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second46Fragment"
+        android:name="com.example.signupandlogin.Second46Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second46">
+
+        <action
+            android:id="@+id/action_Second46Fragment_to_First46Fragment"
+            app:destination="@id/First46Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First47Fragment"
+        android:name="com.example.signupandlogin.First47Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first47">
+
+        <action
+            android:id="@+id/action_First47Fragment_to_Second47Fragment"
+            app:destination="@id/Second47Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second47Fragment"
+        android:name="com.example.signupandlogin.Second47Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second47">
+
+        <action
+            android:id="@+id/action_Second47Fragment_to_First47Fragment"
+            app:destination="@id/First47Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First48Fragment"
+        android:name="com.example.signupandlogin.First48Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first48">
+
+        <action
+            android:id="@+id/action_First48Fragment_to_Second48Fragment"
+            app:destination="@id/Second48Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second48Fragment"
+        android:name="com.example.signupandlogin.Second48Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second48">
+
+        <action
+            android:id="@+id/action_Second48Fragment_to_First48Fragment"
+            app:destination="@id/First48Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First49Fragment"
+        android:name="com.example.signupandlogin.First49Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first49">
+
+        <action
+            android:id="@+id/action_First49Fragment_to_Second49Fragment"
+            app:destination="@id/Second49Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second49Fragment"
+        android:name="com.example.signupandlogin.Second49Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second49">
+
+        <action
+            android:id="@+id/action_Second49Fragment_to_First49Fragment"
+            app:destination="@id/First49Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First50Fragment"
+        android:name="com.example.signupandlogin.First50Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first50">
+
+        <action
+            android:id="@+id/action_First50Fragment_to_Second50Fragment"
+            app:destination="@id/Second50Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second50Fragment"
+        android:name="com.example.signupandlogin.Second50Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second50">
+
+        <action
+            android:id="@+id/action_Second50Fragment_to_First50Fragment"
+            app:destination="@id/First50Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First51Fragment"
+        android:name="com.example.signupandlogin.First51Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first51">
+
+        <action
+            android:id="@+id/action_First51Fragment_to_Second51Fragment"
+            app:destination="@id/Second51Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second51Fragment"
+        android:name="com.example.signupandlogin.Second51Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second51">
+
+        <action
+            android:id="@+id/action_Second51Fragment_to_First51Fragment"
+            app:destination="@id/First51Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First52Fragment"
+        android:name="com.example.signupandlogin.First52Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first52">
+
+        <action
+            android:id="@+id/action_First52Fragment_to_Second52Fragment"
+            app:destination="@id/Second52Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second52Fragment"
+        android:name="com.example.signupandlogin.Second52Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second52">
+
+        <action
+            android:id="@+id/action_Second52Fragment_to_First52Fragment"
+            app:destination="@id/First52Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First53Fragment"
+        android:name="com.example.signupandlogin.First53Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first53">
+
+        <action
+            android:id="@+id/action_First53Fragment_to_Second53Fragment"
+            app:destination="@id/Second53Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second53Fragment"
+        android:name="com.example.signupandlogin.Second53Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second53">
+
+        <action
+            android:id="@+id/action_Second53Fragment_to_First53Fragment"
+            app:destination="@id/First53Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First54Fragment"
+        android:name="com.example.signupandlogin.First54Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first54">
+
+        <action
+            android:id="@+id/action_First54Fragment_to_Second54Fragment"
+            app:destination="@id/Second54Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second54Fragment"
+        android:name="com.example.signupandlogin.Second54Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second54">
+
+        <action
+            android:id="@+id/action_Second54Fragment_to_First54Fragment"
+            app:destination="@id/First54Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First55Fragment"
+        android:name="com.example.signupandlogin.First55Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first55">
+
+        <action
+            android:id="@+id/action_First55Fragment_to_Second55Fragment"
+            app:destination="@id/Second55Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second55Fragment"
+        android:name="com.example.signupandlogin.Second55Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second55">
+
+        <action
+            android:id="@+id/action_Second55Fragment_to_First55Fragment"
+            app:destination="@id/First55Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First56Fragment"
+        android:name="com.example.signupandlogin.First56Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first56">
+
+        <action
+            android:id="@+id/action_First56Fragment_to_Second56Fragment"
+            app:destination="@id/Second56Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second56Fragment"
+        android:name="com.example.signupandlogin.Second56Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second56">
+
+        <action
+            android:id="@+id/action_Second56Fragment_to_First56Fragment"
+            app:destination="@id/First56Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First57Fragment"
+        android:name="com.example.signupandlogin.First57Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first57">
+
+        <action
+            android:id="@+id/action_First57Fragment_to_Second57Fragment"
+            app:destination="@id/Second57Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second57Fragment"
+        android:name="com.example.signupandlogin.Second57Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second57">
+
+        <action
+            android:id="@+id/action_Second57Fragment_to_First57Fragment"
+            app:destination="@id/First57Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First58Fragment"
+        android:name="com.example.signupandlogin.First58Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first58">
+
+        <action
+            android:id="@+id/action_First58Fragment_to_Second58Fragment"
+            app:destination="@id/Second58Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second58Fragment"
+        android:name="com.example.signupandlogin.Second58Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second58">
+
+        <action
+            android:id="@+id/action_Second58Fragment_to_First58Fragment"
+            app:destination="@id/First58Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First59Fragment"
+        android:name="com.example.signupandlogin.First59Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first59">
+
+        <action
+            android:id="@+id/action_First59Fragment_to_Second59Fragment"
+            app:destination="@id/Second59Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second59Fragment"
+        android:name="com.example.signupandlogin.Second59Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second59">
+
+        <action
+            android:id="@+id/action_Second59Fragment_to_First59Fragment"
+            app:destination="@id/First59Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First60Fragment"
+        android:name="com.example.signupandlogin.First60Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first60">
+
+        <action
+            android:id="@+id/action_First60Fragment_to_Second60Fragment"
+            app:destination="@id/Second60Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second60Fragment"
+        android:name="com.example.signupandlogin.Second60Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second60">
+
+        <action
+            android:id="@+id/action_Second60Fragment_to_First60Fragment"
+            app:destination="@id/First60Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First61Fragment"
+        android:name="com.example.signupandlogin.First61Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first61">
+
+        <action
+            android:id="@+id/action_First61Fragment_to_Second61Fragment"
+            app:destination="@id/Second61Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second61Fragment"
+        android:name="com.example.signupandlogin.Second61Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second61">
+
+        <action
+            android:id="@+id/action_Second61Fragment_to_First61Fragment"
+            app:destination="@id/First61Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First62Fragment"
+        android:name="com.example.signupandlogin.First62Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first62">
+
+        <action
+            android:id="@+id/action_First62Fragment_to_Second62Fragment"
+            app:destination="@id/Second62Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second62Fragment"
+        android:name="com.example.signupandlogin.Second62Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second62">
+
+        <action
+            android:id="@+id/action_Second62Fragment_to_First62Fragment"
+            app:destination="@id/First62Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/First63Fragment"
+        android:name="com.example.signupandlogin.First63Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first63">
+
+        <action
+            android:id="@+id/action_First63Fragment_to_Second63Fragment"
+            app:destination="@id/Second63Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second63Fragment"
+        android:name="com.example.signupandlogin.Second63Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second63">
+
+        <action
+            android:id="@+id/action_Second63Fragment_to_First63Fragment"
+            app:destination="@id/First63Fragment" />
+    </fragment>
+</navigation>

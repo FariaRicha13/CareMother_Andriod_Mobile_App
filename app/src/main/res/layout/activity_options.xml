@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ECF59FBC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Join As -"
+        android:textColor="#FFFF"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:paddingBottom="20dp"/>
+
+    <ImageButton
+        android:id="@+id/mother"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:background="#ECF59FBC"
+        android:src="@drawable/mother"
+
+        android:text="Mother"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageButton
+        android:id="@+id/doctor"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:background="#ECF59FBC"
+        android:src="@drawable/doctor"
+        android:text="Doctor" />
+
+    <ImageButton
+        android:id="@+id/caretaker"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:background="#ECF59FBC"
+        android:src="@drawable/caretaker"
+        android:text="Caretaker" />
+
+
+</LinearLayout>

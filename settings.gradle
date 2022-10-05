@@ -1,0 +1,5 @@
+include ':app'
+
+include ':dexter', ':sample'
+
+rootProject.name = "signupandlogin"

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fefced"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#F2B8C6"
+            android:padding="20dp">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="116dp"
+                android:layout_marginRight="116dp"
+                android:gravity="center_horizontal"
+                android:text="Weekly Report"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="643dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="332dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name :  " />
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Phone :" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Age :" />
+
+            <TextView
+                android:id="@+id/week"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Weeks :" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Height :" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="182dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Weight :" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#F2B8C6"
+                android:padding="1dp">
+
+                <TextView
+
+                    android:layout_width="281dp"
+                    android:layout_height="30dp"
+
+
+                    android:layout_marginStart="79dp"
+                    android:layout_marginLeft="79dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="103dp"
+                    android:layout_marginRight="103dp"
+                    android:layout_marginBottom="400dp"
+                    android:gravity="center_horizontal"
+                    android:text="Weekly Activities"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/pulse"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Pulse Rate : " />
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Temperature :" />
+
+            <TextView
+                android:id="@+id/step"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Step Count : " />
+
+            <TextView
+                android:id="@+id/sleep"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Sleep Rate : " />
+
+            <TextView
+                android:id="@+id/bp"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Blood Pressure : " />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979344302861",
+    "project_id": "caremother-f2b58",
+    "storage_bucket": "caremother-f2b58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979344302861:android:9e922dd33d71026ed88644",
+        "android_client_info": {
+          "package_name": "com.example.signupandlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979344302861-i0jehr74u07qfl1q9kbq99tfp3ravq1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpxyuA0vS6mZGm80HGDHR1GY2pe8Zezec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979344302861-i0jehr74u07qfl1q9kbq99tfp3ravq1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

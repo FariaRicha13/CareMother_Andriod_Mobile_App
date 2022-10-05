@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signupandlogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+    <uses-feature android:name="android.hardware.sensor.stepdetector" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Signupandlogin"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".doctor_profile4"
+            android:label="@string/title_activity_doctor_profile4"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar"></activity>
+        <activity
+            android:name=".Choose_doctor2"
+            android:label="@string/title_activity_choose_doctor2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile5"
+            android:label="@string/title_activity_mother_profile5"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".chat_care"
+            android:label="@string/title_activity_chat_care"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatAct4"
+            android:label="@string/title_activity_chat_act4"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatAct3"
+            android:label="@string/title_activity_chat_act3"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".caretaker_profile3"
+            android:label="@string/title_activity_caretaker_profile3"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".DocProfile3"
+            android:label="@string/title_activity_doc_profile3"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatActMom"
+            android:label="@string/title_activity_chat_act_mom"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile4"
+            android:label="@string/title_activity_mother_profile4"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".bpgraph2"
+            android:label="@string/title_activity_bpgraph2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".TempGraph2"
+            android:label="@string/title_activity_temp_graph2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".GraphHome2"
+            android:label="@string/title_activity_graph_home2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".WeeklyAct2"
+            android:label="@string/title_activity_weekly_act2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".PulseGraph2"
+            android:label="@string/title_activity_pulse_graph2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".StepGraph"
+            android:label="@string/title_activity_step_graph"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".bpshow2"
+            android:label="@string/title_activity_bpshow2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".checkHealth2"
+            android:label="@string/title_activity_check_health2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ShowPulse2"
+            android:label="@string/title_activity_show_pulse2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ShowTemp2"
+            android:label="@string/title_activity_show_temp2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".BpShow"
+            android:label="@string/title_activity_bp_show"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ShowTemp"
+            android:label="@string/title_activity_show_temp"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ShowPulse"
+            android:label="@string/title_activity_show_pulse"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".checkHealth"
+            android:label="@string/title_activity_check_health"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".step_count"
+            android:label="@string/title_activity_step_count"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatRoomDoc"
+            android:label="@string/title_activity_chat_room_doc"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".GraphHome"
+            android:label="@string/title_activity_graph_home"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".SleepGraph"
+            android:label="@string/title_activity_sleep_graph"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".TempGraph"
+            android:label="@string/title_activity_temp_graph"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".schedule"
+            android:label="@string/title_activity_schedule"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".testmap"
+            android:label="@string/title_activity_testmap"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".maps"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".PulseGraph"
+            android:label="@string/title_activity_pulse_graph"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ReportForDoc"
+            android:label="@string/title_activity_report_for_doc"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".WeeklyDocHom"
+            android:label="@string/title_activity_weekly_doc_hom"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".bpGraph"
+            android:label="@string/title_activity_bp_graph"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".WeeklyReportHome"
+            android:label="@string/title_activity_weekly_report_home"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".WeeklyActivity"
+            android:label="@string/title_activity_weekly"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".sleep"
+            android:label="@string/title_activity_sleep"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".caretaker_profile2"
+            android:label="@string/title_activity_caretaker_profile2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".mom_req"
+            android:label="@string/title_activity_mom_req"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile_req"
+            android:label="@string/title_activity_mother_profile_req"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Choose_mother"
+            android:label="@string/title_activity_choose_mother"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_req"
+            android:label="@string/title_activity_mother_req"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatAct2"
+            android:label="@string/title_activity_chat_act2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ChatAct"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile3"
+            android:label="@string/title_activity_mother_profile3"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".View_patient"
+            android:label="@string/title_activity_view_patient"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile2"
+            android:label="@string/title_activity_mother_profile2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".doc_request"
+            android:label="@string/title_activity_doc_request"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".health_activity"
+            android:label="@string/title_activity_health_activity"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".caretakerlogin"
+            android:label="@string/title_activity_caretakerlogin"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".caretaker_signup2"
+            android:label="@string/title_activity_caretaker_signup2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".doctor_profile2"
+            android:label="@string/title_activity_doctor_profile2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Choose_doctor"
+            android:label="@string/title_activity_choose_doctor"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".doctor_profile"
+            android:label="@string/title_activity_doctor_profile"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".doctorlogin"
+            android:label="@string/title_activity_doctorlogin"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".doctor_signup2"
+            android:label="@string/title_activity_doctor_signup2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".motherlogin"
+            android:label="@string/title_activity_motherlogin"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".signup2"
+            android:label="@string/title_activity_signup2"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Caretaker_profile"
+            android:label="@string/title_activity_caretaker_profile"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".Mother_profile"
+            android:label="@string/title_activity_mother_profile"
+            android:theme="@style/Theme.Signupandlogin.NoActionBar" />
+        <activity
+            android:name=".ambulance"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".caretaker"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".doctor"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".caretaker_login"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".doctor_login"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".caretaker_signup"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".doctor_signup"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".Music"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".Mother"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".Options"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".NewService" />
+    </application>
+
+</manifest>
